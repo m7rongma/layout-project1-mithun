@@ -198,6 +198,9 @@ h4  {
     margin: 0 auto;
     background-color: #f3dfdf;
 }
+.service h3 {
+    margin-bottom: -180px;
+}
 .service-item {
     display: flex;
     flex-wrap: wrap;
@@ -257,8 +260,8 @@ h4  {
     margin: 0 auto;
 }
 .projects h3 {
-    width: 28%;
-    margin-bottom: 2px;
+    width: 25%;
+    margin-bottom: -180px;
 }
 .project-image {
     display: flex;
@@ -358,8 +361,8 @@ h4  {
     margin: 0 auto;
 }
 .experience h3 {
-    width: 28%;
-    margin-bottom: 15px;
+    width: 25%;
+    margin-bottom: -180px;
 }
 .experience-box {
     display: flex;
@@ -448,7 +451,7 @@ h4  {
 
 .testimonial h3 {
     width: 33%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: #fff;
 }
 .testimonial p {
@@ -497,14 +500,14 @@ h4  {
     margin: 24px auto 0;
     justify-content: center;
 }
-.dot div {
+.dot span {
     width: 10px;
     height: 10px;
     background-color: red;
     margin-right: 15px;
     border-radius: 50%;
 }
-.dot div:last-child {
+.dot span:last-child {
     margin-right: 0;
 }
 /*Testimonials Section end */
